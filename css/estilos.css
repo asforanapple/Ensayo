@@ -1,0 +1,52 @@
+.galeria{
+	display:flex;
+	justify-content: center;
+}
+
+.galeria div{
+	padding-top: 20px;
+	margin: 10px;
+	width: 60%;
+}
+
+body{
+	background-color: #ADC865;
+}
+
+h1{
+	padding-top: 50px;
+	color:#ffffff;
+	font-family: poppins;
+	font-weight: bolder;
+}
+
+h5{
+	font-family: poppins;
+	color: #ffffff;
+}
+
+p {
+	padding-top: 30px;
+	color: #FFFFFF;
+	font-family: poppins;
+	text-align: justify;
+	font-weight: 50;
+}
+
+.centrar{
+	display: flex;
+	text-align: center;
+}
+
+@media screen and (max-width:600px){
+	.galeria{
+		flex-direction: column;
+		text-align: center;
+		padding: 3em;
+	}
+
+	.galeria div{
+		margin-top: 0.5em;
+		width: 90%;
+	}
+}
